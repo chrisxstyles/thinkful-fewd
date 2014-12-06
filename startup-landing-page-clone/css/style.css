@@ -202,3 +202,14 @@ button:hover {
     font-weight: 300;
     font-size: 1.313rem;
 }
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+.social h5 {
+	margin: 1.6rem 0;
+}
