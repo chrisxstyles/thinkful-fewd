@@ -20,17 +20,12 @@ header {
 }
 
 .list-area {
-	text-align: center;
-	padding: 5px 0px 5px 0px;
-}
-
-ul {
 	margin: 0 auto;
 	padding: 5px 0px 5px 0px;
 	text-align: center;
+	border-bottom: 2px solid #9c9c9c;
 	border-left: 2px solid #9c9c9c;
 	border-right: 2px solid #9c9c9c;
-	border-bottom: 2px solid #9c9c9c;
 	width: 560px;
 }
 
@@ -41,5 +36,12 @@ li {
  	font-size: 25px;
  	font-weight: 300;
  	margin: 10px 0;
- 	padding-right: 210px;
+ 	padding-right: 230px;
+ 	padding-left: 0px;
 }
+
+.active-item i {
+ 	margin: 0 12px 0 0;
+ 	padding: 5px 0px 5px 0px;
+}
+
