@@ -4,20 +4,24 @@
 //document.body.appendChild(t); 
 
 
-function getText(){
+function launchFizzBuzz(){
 	n = Number(document.getElementById("number").value);
-	fizzbuzz(n);
-	return false;
+	clearFizzBuzzContainer();
+	fizzbuzz(n);	
+};
+
+function clearFizzBuzzContainer() {
+	document.getElementById("fizzBuzzContainer").innerHTML = "";
 };
 
 function makeBr(){
 	var br = document.createElement("br");
-	document.body.appendChild(br);
+	document.getElementById("fizzBuzzContainer").appendChild(br);
 };
 
 function display(i){
 	var t = document.createTextNode(i);
-	document.body.appendChild(t);
+	document.getElementById("fizzBuzzContainer").appendChild(t);
 };
 
 function fizzbuzz(n){
