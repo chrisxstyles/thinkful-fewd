@@ -1,0 +1,11 @@
+li {
+ 	display: block;
+ 	background-color: #FFFFFF;
+ 	border-style: hidden;
+	float: left;
+	position: relative;
+	width: 402px;
+	margin: 10px 10px 6px 0;
+	padding: 5px 9px 0 0;
+	height: auto;
+}
